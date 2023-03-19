@@ -5,7 +5,7 @@ import { error } from '@sveltejs/kit'
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
   let page = params.page ? parseInt(params.page) : 1
-  let limit = 10
+  let limit = 100
 
   const postsForPage = paginate(posts, { limit, page })
 

@@ -11,12 +11,6 @@
   <div slot="description" class="prose dark:prose-invert">
     {@html post.preview.html}
   </div>
-  <div slot="actions">
-    <div class="flex items-center text-teal-500">
-      <span class="text-sm font-medium">Les</span>
-      <ArrowRightIcon class="w-4 h-4 ml-1" />
-    </div>
-  </div>
 </Card>
 
 <style>

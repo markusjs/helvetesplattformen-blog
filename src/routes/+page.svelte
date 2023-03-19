@@ -1,8 +1,7 @@
 <script>
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
   import PostsList from '$lib/components/PostsList.svelte'
-  import SocialLinks from '$lib/components/SocialLinks.svelte'
-  import { avatar, author, intro , name, title } from '$lib/info.js'
+  import { author, intro , title } from '$lib/info.js'
 
   /** @type {import('./$types').PageData} */
   export let data
@@ -35,8 +34,7 @@
         Siste nyhetssaker
       </h2>
       <a href="/posts" class="flex items-center gap-1 text-sm font-medium text-teal-500"
-        >Se alle <ArrowRightIcon class="w-4 h-4" /></a
-      >
+        >Se alle <ArrowRightIcon class="w-4 h-4" /></a>
     </div>
     <PostsList posts={data.posts} />
   </section>
