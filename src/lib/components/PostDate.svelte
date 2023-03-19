@@ -20,7 +20,7 @@
   {/if}
   <div class="flex" class:flex-col={!collapsed}>
     <time datetime={post.date}>
-      {format(new Date(parseISO(post.date)), 'MMMM d, yyyy')}
+      {format(new Date(parseISO(post.date)), 'dd.MM.yyyy')}
     </time>
     {#if collapsed}
       <span class="mx-1">•</span>

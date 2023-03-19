@@ -1,5 +1,5 @@
 <script>
-  import { website, name, bio, avatar } from '$lib/info.js'
+  import { website, name, avatar } from '$lib/info.js'
   import ToC from '$lib/components/ToC.svelte'
   import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
   import SocialLinks from '$lib/components/SocialLinks.svelte'
@@ -91,7 +91,7 @@
 
     <!-- bio -->
     <hr />
-    <div class="py-8">
+    <!-- <div class="py-8">
       <div class="grid gap-8">
         <div class="flex justify-center order-1 col-span-2 gap-6 md:order-2">
           <SocialLinks />
@@ -109,7 +109,7 @@
           {bio}
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <!-- table of contents -->
